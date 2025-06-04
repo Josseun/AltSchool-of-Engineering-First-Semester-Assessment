@@ -19,7 +19,7 @@ function calculateResult() {
 document.addEventListener("keydown", function (event) {
   const key = event.key;
 
-  if (/[0-9+\-*/.]/.test(key)) {
+  if (/[0-9+\-*%^/.]/.test(key)) {
     printMessage(key);
   }
 
